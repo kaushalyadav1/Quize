@@ -1,33 +1,131 @@
 const questions = [
     {
-        question: "Which tag is used to create form ?",
+        question: "What is my full name ?",
         answers: [
-            { text: "form", correct: "true" },
-            { text: "fieldset", correct: "false" },
-            { text: "legend", correct: "false" },
-            { text: "div", correct: "false" }
+            { text: "Kaushal", correct: "false" },
+            { text: "Kaushal Jacker", correct: "false" },
+            { text: "Kaushal Kumar", correct: "false" },
+            { text: "Kaushal Yadav", correct: "true" }
         ]
     },
-
     {
-        question: "Which tag is used for hyerlink ?",
+        question: "What is my favourite color ?",
         answers: [
-            { text: "div", correct: "false" },
-            { text: "fieldset", correct: "false" },
-            { text: "a", correct: "true" },
-            { text: "div", correct: "false" }
+            { text: "black", correct: "true" },
+            { text: "blue", correct: "false" },
+            { text: "red", correct: "false" },
+            { text: "pink", correct: "false" }
         ]
     },
-
     {
-        question: "Which tag is used to take input ?",
+        question: "Which flavour of ice-cream i like most ?",
         answers: [
-            { text: "form", correct: "false" },
-            { text: "fieldset", correct: "false" },
-            { text: "legend", correct: "false" },
-            { text: "input", correct: "true" }
+            { text: "chocolate", correct: "false" },
+            { text: "butterscoutch", correct: "true" },
+            { text: "vanilla", correct: "false" },
+            { text: "maple", correct: "false" }
+        ]
+    },
+    {
+        question: "Favourite Cricketer ?",
+        answers: [
+            { text: "dhoni", correct: "false" },
+            { text: "sachin", correct: "false" },
+            { text: "kohli", correct: "true" },
+            { text: "rohit", correct: "false" }
+        ]
+    },
+    {
+        question: "Color of my eyes ?",
+        answers: [
+            { text: "brown", correct: "false" },
+            { text: "blue", correct: "false" },
+            { text: "black", correct: "true" },
+            { text: "green", correct: "false" }
+        ]
+    },
+    {
+        question: "Born ?",
+        answers: [
+            { text: "27 sep", correct: "false" },
+            { text: "28 sep", correct: "true" },
+            { text: "28 oct", correct: "false" },
+            { text: "24 sep", correct: "false" }
+        ]
+    },
+    {
+        question: "Occupation ?",
+        answers: [
+            { text: "student", correct: "false" },
+            { text: "un-employed", correct: "false" },
+            { text: "working", correct: "true" }
+        ]
+    },
+    {
+        question: "Education ?",
+        answers: [
+            { text: "graduate", correct: "true" },
+            { text: "12th pass", correct: "false" },
+            { text: "master degree", correct: "false" },
+            { text: "10th pass", correct: "false" }
         ]
     }
+    // {
+    //     question: "Which tag is used to create form ?",
+    //     answers: [
+    //         { text: "form", correct: "true" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "legend", correct: "false" },
+    //         { text: "div", correct: "false" }
+    //     ]
+    // },
+    // {
+    //     question: "Which tag is used to create form ?",
+    //     answers: [
+    //         { text: "form", correct: "true" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "legend", correct: "false" },
+    //         { text: "div", correct: "false" }
+    //     ]
+    // },
+    // {
+    //     question: "Which tag is used to create form ?",
+    //     answers: [
+    //         { text: "form", correct: "true" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "legend", correct: "false" },
+    //         { text: "div", correct: "false" }
+    //     ]
+    // },
+    // {
+    //     question: "Which tag is used to create form ?",
+    //     answers: [
+    //         { text: "form", correct: "true" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "legend", correct: "false" },
+    //         { text: "div", correct: "false" }
+    //     ]
+    // },
+
+    // {
+    //     question: "Which tag is used for hyerlink ?",
+    //     answers: [
+    //         { text: "div", correct: "false" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "a", correct: "true" },
+    //         { text: "div", correct: "false" }
+    //     ]
+    // },
+
+    // {
+    //     question: "Which tag is used to take input ?",
+    //     answers: [
+    //         { text: "form", correct: "false" },
+    //         { text: "fieldset", correct: "false" },
+    //         { text: "legend", correct: "false" },
+    //         { text: "input", correct: "true" }
+    //     ]
+    // }
 ];
 
 const questionElement = document.getElementById("question");
